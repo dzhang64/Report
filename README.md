@@ -37,7 +37,7 @@ ReportHelper is a Java-based application designed to generate detailed LTE test 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/zhaugriugieuao/ReportHelper.git
+    git clone https://github.com/dzhang64/Report.git
     ```
 2. Navigate to the project directory:
     ```sh
