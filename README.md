@@ -41,7 +41,7 @@ ReportHelper is a Java-based application designed to generate detailed LTE test 
     ```
 2. Navigate to the project directory:
     ```sh
-    cd ReportHelper
+    cd Report
     ```
 3. Install the dependencies:
     ```sh
