@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="980.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="report.controller.function.Tools">
+    <children>
+        <Pane fx:id="rightPane1" prefHeight="650.0" prefWidth="980.0">
+            <children>
+                <Label layoutX="9.0" layoutY="20.0" text="小工具" />
+                <Label layoutX="21.0" layoutY="73.0" prefHeight="30.0" prefWidth="120" text="高德转WGS84" />
+                <Label layoutX="141.0" layoutY="81.0" text="经度" />
+                <TextField fx:id="gcjLon" layoutX="183.0" layoutY="81.0" prefWidth="160.0"/>
+                <Label layoutX="357.0" layoutY="81.0" text="纬度" />
+                <TextField fx:id="gcjLa" layoutX="398.0" layoutY="81.0" prefHeight="23.0" prefWidth="160.0" />
+                <Label layoutX="570.0" layoutY="81.0" text="结果" />
+                <TextField fx:id="wsg84Res" layoutX="622.0" layoutY="81.0" prefHeight="23.0" prefWidth="288.0" />
+                <Button fx:id="covertGCJ2WGS" layoutX="926.0" layoutY="81.0" mnemonicParsing="false" text="转换" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

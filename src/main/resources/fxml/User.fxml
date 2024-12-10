@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="980.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="report.controller.UserController">
+    <children>
+        <Pane fx:id="leftPane" prefHeight="650.0" prefWidth="280.0">
+            <children>
+                <Label layoutX="14.0" layoutY="60.0" prefHeight="30.0" prefWidth="90" text="name:" />
+                <Label layoutX="14.0" layoutY="120.0" prefHeight="30.0" prefWidth="90" text="role:" />
+                <Label layoutX="14.0" layoutY="180.0" prefHeight="30.0" prefWidth="90" text="time:" />
+                <Label fx:id="lpLabel1" layoutX="110.0" layoutY="60.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Label fx:id="lpLabel2" layoutX="110.0" layoutY="120.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Label fx:id="lpLabel3" layoutX="110.0" layoutY="180.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Button fx:id="lpButton" layoutX="120.0" layoutY="580" mnemonicParsing="false" text="Quit" />
+            </children>
+        </Pane>
+        <Pane fx:id="rightPane1" layoutX="280.0" prefHeight="650.0" prefWidth="700.0">
+            <children>
+                <Label layoutX="9.0" layoutY="20.0" text="选择功能:" />
+                <Label layoutX="56.0" layoutY="80.0" prefHeight="30.0" prefWidth="120" text="功能列表:" />
+                <ComboBox fx:id="functionBox" layoutX="190.0" layoutY="80" prefHeight="43.0" prefWidth="391.0" />
+                <Label layoutX="56.0" layoutY="248.0" prefHeight="30.0" prefWidth="60" text="Tips:" />
+                <TextArea fx:id="tips" layoutX="191.0" layoutY="242.0" prefHeight="251.0" prefWidth="418.0" text="" />
+                <Button fx:id="updateButton" layoutX="70.0" layoutY="511.0" mnemonicParsing="false" text="更新功能文件" />
+                <Button fx:id="enterButton" layoutX="190.0" layoutY="511.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="70.0" text="进入" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

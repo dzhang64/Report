@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="980.0" stylesheets="@../../css/main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="report.controller.function.TeleInner">
+    <children>
+        <Pane fx:id="leftPane" prefHeight="650.0" prefWidth="280.0">
+            <children>
+                <Label layoutX="14.0" layoutY="60.0" prefHeight="30.0" prefWidth="90" text="name:" />
+                <Label layoutX="14.0" layoutY="120.0" prefHeight="30.0" prefWidth="90" text="role:" />
+                <Label layoutX="14.0" layoutY="180.0" prefHeight="30.0" prefWidth="90" text="time:" />
+                <Label fx:id="lpLabel1" layoutX="110.0" layoutY="60.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Label fx:id="lpLabel2" layoutX="110.0" layoutY="120.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Label fx:id="lpLabel3" layoutX="110.0" layoutY="180.0" prefHeight="30.0" prefWidth="160" text="" />
+                <Button fx:id="lpButton" layoutX="120.0" layoutY="580" mnemonicParsing="false" text="Quit" />
+            </children>
+        </Pane>
+        <Pane fx:id="rightPane1" layoutX="280.0" prefHeight="650.0" prefWidth="700.0">
+            <children>
+                <Label layoutX="9.0" layoutY="20.0" text="室分报告生成:" />
+                <Label layoutX="56.0" layoutY="80.0" prefHeight="30.0" prefWidth="120" text="文件:" />
+                <TextField fx:id="singleFile" layoutX="190.0" layoutY="80" prefHeight="43.0" prefWidth="450" />
+                <Button fx:id="folderChooseButton" layoutX="56.0" layoutY="140" mnemonicParsing="false" text="选择文件" />
+                <Button fx:id="singleRun" layoutX="200.0" layoutY="140.0" mnemonicParsing="false" text="单文件运行" />
+                <Button fx:id="multiRun" layoutX="350.0" layoutY="140.0" mnemonicParsing="false" text="多文件运行" />
+                <TextArea fx:id="result" layoutX="51.0" layoutY="216.0" prefHeight="396.0" prefWidth="605.0" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
